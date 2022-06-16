@@ -81,8 +81,49 @@ p, pre, ul, ol, dl, table, div, blockquote, figure, aside {
   font-size: 0.94em;
 }
 
+body {
+  font-size: 1em;
+}
 
 img {
   width: 400px;
   height: 400px;
+}
+
+h1 {
+  font-size : 1.5em;
+  padding: 1em;
+}
+
+ul {
+  margin-left: 1em;
+}
+li {
+  margin-left: 1em;
+}
+
+nav {
+  margin: 0;
+  padding: 0.5em 1em;
+  background-color: #470a47;
+}
+nav a {
+  color: #eeeeee;
+}
+
+article {
+  margin-left : 1em;
+}
+
+section {
+  margin-top: 1em;
+}
+
+section h2 {
+  border-left: solid 5px #470a47;
+  border-bottom: solid 1px #470a47;
+  padding-left: 0.5em;
+}
+section p, section figure {
+  margin-left: 1em;
 }

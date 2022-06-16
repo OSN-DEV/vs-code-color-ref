@@ -1,0 +1,244 @@
+ントラスト系の色
+contrastActiveBorder ：アクティブな要素の周囲に余分な境界線を設定して、コントラストを高めるためにアクティブな要素と他の要素を区切ります。
+contrastBorder ： contrastBorderを高めるために、要素の周りに余分な境界線を付けて他の境界線と区切ります。
+
+基本色
+focusBorder ：フォーカスされた要素の全体的な境界線の色です。 この色は、コンポーネントによってオーバーライドされない場合にのみ使用されます。
+foreground ：全体的なフォアグラウンドカラー。 この色は、コンポーネントによってオーバーライドされない場合にのみ使用されます。
+widget.shadow ：エディタ内の検索/置換などのウィジェットの影の色。
+selection.background ：ワークベンチ内のテキスト選択の背景色（入力フィールドまたはテキストエリアの場合、エディタとターミナル内の選択には適用されません）。
+errorForeground ：エラーメッセージの全体的な前景色（この色は、コンポーネントによって上書きされない場合にのみ使用されます）。
+
+ボタン色
+button.background ：ボタンの背景色。
+button.foreground ：ボタンの前景色。
+button.hoverBackground ：ホバリング時のボタンの背景色。
+
+ドロップダウン色
+dropdown.background ：ドロップダウンの背景。
+dropdown.border ：ドロップダウンの境界線。
+dropdown.foreground ：ドロップダウンフォアグラウンド。
+
+入力ボックス色
+input.background ：入力ボックスの背景。
+input.border ：ボックスの枠線を入力します。
+input.foreground ：入力ボックスのフォアグラウンド。
+input.placeholderForeground ：プレースホルダテキストの入力ボックスの前景色。
+inputOption.activeBorder ：入力フィールドのアクティブなオプションの境界線の色です。
+inputValidation.errorBackground ：エラー重大度の検証用背景色を入力します。
+inputValidation.errorBorder ：エラー重大度の妥当性検査の罫線の色を入力します。
+inputValidation.infoBackground ：情報重大度の背景色を入力します。
+inputValidation.infoBorder ：情報の重大度の妥当性検査の境界線の色を入力します。
+inputValidation.warningBackground ：情報警告の背景色を入力します。
+inputValidation.warningBorder ：警告重大度の境界カラーを入力します。
+
+スクロールバー色
+scrollbar.shadow ：Scroll Barの影をスクロールして表示します。
+scrollbarSlider.activeBackground ：アクティブ時のスライダの背景色。
+scrollbarSlider.background ：スライダの背景色です。
+scrollbarSlider.hoverBackground ：ホバリング時のスライダー背景色。
+
+バッジ 色
+badge.foreground ：バッジの前景色。
+badge.background ：バッジの背景色。
+
+プログレスバー 色
+progressBar.background ：長時間実行される操作の進行状況バーの背景色です。
+
+リストとツリー色
+list.activeSelectionBackground ：リスト/ツリーがアクティブなときに、選択された項目のリスト/ツリーの背景色。
+list.activeSelectionForeground ：リスト/ツリーがアクティブなときに、選択した項目のフォアグラウンドカラーを一覧表示します。
+list.dropBackground ：マウスを使用して項目を移動するときに、リスト/ツリーの背景をドラッグアンドドロップします。
+list.focusBackground ：リスト/ツリーがアクティブなときに、フォーカスされた項目のリスト/ツリーの背景色。
+list.highlightForeground ：リスト/ツリー内で検索するときのマッチのリスト/ツリーの前景色。
+list.hoverBackground ：マウスを使用してアイテムをホバーするときのリスト/ツリーの背景。
+list.inactiveSelectionBackground ：リスト/ツリーが非アクティブのときに選択された項目のリスト/ツリー背景色。
+list.inactiveSelectionForeground ：リスト/ツリーが非アクティブのときに、選択された項目のフォアグラウンドカラーを一覧表示します。 アクティブなリスト/ツリーにはキーボードフォーカスがあり、非アクティブではありません。
+list.hoverForeground ：マウスを使用して項目にカーソルを移動すると、フォアグラウンドを表示/ツリー表示します。
+list.focusForeground ：リスト/ツリーがアクティブなときに、フォーカスされた項目のフォアグラウンドカラーを一覧表示します。 アクティブなリスト/ツリーにはキーボードフォーカスがあり、非アクティブではありません。
+
+アクティビティバー 色
+activityBar.background ：アクティビティバーの背景色です。
+activityBar.dropBackground ：アクティビティバー項目のフィードバックカラーをドラッグアンドドロップします。
+activityBar.foreground ：アクティビティバーの前景色（アイコンなど）。
+activityBar.border ：サイドバーのアクティビティバーの境界線の色。
+activityBarBadge.background ：アクティビティ通知バッジの背景色。
+activityBarBadge.foreground ：アクティビティ通知バッジの前景色。
+
+サイドバー色
+sideBar.background ：サイドバーの背景色。
+sideBar.foreground ：サイドバーの前景色。 サイドバーは、エクスプローラや検索のようなビューのコンテナです。
+sideBar.border ：サイドバーのボーダーカラーで、エディターを分離します。
+sideBarTitle.foreground ：サイドバータイトルの前景色。
+sideBarSectionHeader.background ：サイドバーのセクションヘッダの背景色です。
+sideBarSectionHeader.foreground ：サイドバーセクションのヘッダーの前景色。
+
+エディタのグループとタブ色
+editorGroup.background ：エディタグループの背景色。 エディタグループをドラッグすると、背景色が表示されます。
+editorGroup.border ：複数のエディタグループを互いに分離するための色。
+editorGroup.dropBackground ：エディタをドラッグしたときの背景色。
+editorGroupHeader.noTabsBackground ：タブが無効のときのエディタグループタイトルヘッダの背景色。
+editorGroupHeader.tabsBackground ：Tabsコンテナの背景色です。
+editorGroupHeader.tabsBorder ：タブが有効になっているときのエディタグループのタイトルヘッダーの境界線の色です。 エディタグループはエディタのコンテナです。
+tab.activeBackground ：アクティブなタブの背景色です。
+tab.activeForeground ：アクティブアクティブグループ内のアクティブなタブの前景色。
+tab.border ：タブを互いに分離するための境界線。
+tab.inactiveBackground ：非アクティブタブの背景色。
+tab.inactiveForeground ：Inactiveアクティブなグループ内の前景色のタブ。
+tab.unfocusedActiveForeground ：アクティブでないエディタグループ内のアクティブなタブの前景色。
+tab.unfocusedInactiveForeground ：アクティブでないエディタグループ内の非アクティブタブの前景色。
+
+エディタ色
+editor.background ：エディターの背景色。
+editorLineNumber.foreground ：エディター行番号の色。
+editorCursor.foreground ：エディタカーソルの色です。
+editor.selectionBackground ：エディタ選択の色です。
+editor.selectionHighlightBackground ：選択と同じ内容の領域の色。
+editor.inactiveSelectionBackground ：非アクティブなエディタ内の選択 editor.inactiveSelectionBackground 色です。
+editor.wordHighlightBackground ：変数の読み込みなど、読み取りアクセス時のシンボルの背景色。
+editor.wordHighlightStrongBackground ：変数への書き込みなど、書き込みアクセス時のシンボルの背景色。
+editor.findMatchBackground ：現在の検索一致の色。
+editor.findMatchHighlightBackground ：他の検索一致の色。
+editor.findRangeHighlightBackground ：検索を制限する範囲をeditor.findRangeHighlightBackgroundします。
+editor.hoverHighlightBackground ：ホバーが表示されている単語の下をハイライト表示します。
+editor.lineHighlightBackground ：カーソル位置にあるハイライトの背景色。
+editor.lineHighlightBorder ：カーソル位置にある線の周りの境界の背景色。
+editorLink.activeForeground ：アクティブなリンクの色。
+editor.rangeHighlightBackground ：ハイライトされた範囲の背景色。クイックオープンや検索機能など。
+editorWhitespace.foreground ：エディタ内の空白文字の色です。
+editorIndentGuide.background ：エディターインデントガイドの色です。
+editorRuler.foreground ：エディタルーラの色です。
+editorCodeLens.foreground ：エディタCodeLensの前景色。
+editorBracketMatch.background ：マッチする括弧の背景色。
+editorBracketMatch.border ：括弧内のボックスに一致する色。
+editorOverviewRuler.border ：概観ルーラーボーダーの色です。
+editorError.foreground ：エディタ内のエラーの盛り上がりの前景色。
+editorError.border ：エディター内のエラーの塊の境界線の色です。
+editorWarning.foreground ：エディタ内の警告音の前景色。
+editorWarning.border ：エディタ内の警告音の境界線の色です。
+editorGutter.background ：エディターガターの背景色。
+editorGutter.modifiedBackground ：変更された行のエディターガターの背景色。
+editorGutter.addedBackground ：追加された行のエディターガターの背景色。
+editorGutter.deletedBackground ：削除された行のエディターガターの背景色。
+
+差分エディタ色
+diffEditor.insertedTextBackground ：挿入されたテキストの背景色。
+diffEditor.insertedTextBorder ：挿入されたテキストのアウトラインの色です。
+diffEditor.removedTextBackground ：削除されたテキストの背景色。
+diffEditor.removedTextBorder ：削除されたテキストのアウトラインカラー。
+
+差分エディタ色
+editorWidget.background ：エディタウィジェットの背景色（Find / Replaceなど）。
+editorWidget.border ：ウィジェットに罫線が含まれていないか、または独自の罫線の色を定義していない限り、エディタウィジェットの罫線の色です。
+editorSuggestWidget.background ：提案ウィジェットの背景色です。
+editorSuggestWidget.border ：提案ウィジェットの境界線の色です。
+editorSuggestWidget.foreground ：提案ウィジェットの前景色。
+editorSuggestWidget.highlightForeground ： editorSuggestWidget.highlightForegroundウィジェット内のハイライトの色です。
+editorSuggestWidget.selectedBackground ：提案ウィジェット内の選択した項目の背景色。
+editorHoverWidget.background ：エディタのホバーの背景色です。
+editorHoverWidget.border ：エディタホバーの境界線の色です。
+debugExceptionWidget.background ：例外ウィジェットの背景色です。
+debugExceptionWidget.border ：例外ウィジェットの境界線の色です。
+editorMarkerNavigation.background ：エディタマーカーナビゲーションウィジェットの背景。
+editorMarkerNavigationError.background ：エディターマーカーナビゲーションウィジェットのエラーカラーです。
+editorMarkerNavigationWarning.background ：エディタマーカーナビゲーションウィジェットの警告色です。
+
+ピークビュー色
+peekView.border ：覗き見の境界と矢印の色。
+peekViewEditor.background ：ピークビューエディタの背景色。
+peekViewEditorGutter.background ：ピークビューエディタのガターの背景色。
+peekViewEditor.matchHighlightBackground ：ピークビューエディタでハイライトカラーを一致させます。
+peekViewResult.background ： peekViewResult.backgroundビューの結果リストの背景色。
+peekViewResult.fileForeground ：ピークビューの結果リスト内のファイルノードのフォアグラウンドカラー。
+peekViewResult.lineForeground ：ピークビューの結果リスト内のラインノードのフォアグラウンドカラー。
+peekViewResult.matchHighlightBackground ：ピークビュー結果リストのハイライトカラーに一致します。
+peekViewResult.selectionBackground ：ピークビュー結果リスト内の選択されたエントリの背景色。
+peekViewResult.selectionForeground ：ピークビュー結果リスト内の選択されたエントリのフォアグラウンドカラー。
+peekViewTitle.background ： peekViewTitle.backgroundビューのタイトル領域の背景色。
+peekViewTitleDescription.foreground ：ピークビューのタイトル情報の色。
+peekViewTitleLabel.foreground ： peekViewTitleLabel.foregroundビューのタイトルの色。
+
+マージコンフリクト色
+merge.currentHeaderBackground ：インラインマージ競合の現在のヘッダーバックグラウンド。
+merge.currentContentBackground ：インラインマージ競合の現在のコンテンツバックグラウンド。
+merge.incomingHeaderBackground ：インラインマージ競合の受信ヘッダ背景。
+merge.incomingContentBackground ：インラインマージ競合の受信コンテンツの背景。
+merge.border ：インラインマージ競合のヘッダーとスプリッタの境界線の色。
+editorOverviewRuler.currentContentForeground ：インラインマージ競合の現在の概観ルーラーの前景。
+editorOverviewRuler.incomingContentForeground ：インラインマージの競合の概要概要ルーラのフォアグラウンド。
+
+パネル色
+panel.background ：パネルの背景色です。
+panel.border ：エディタに区切られたパネル境界線の色です。
+panelTitle.activeBorder ：アクティブなパネルタイトルの枠線の色です。
+panelTitle.activeForeground ：アクティブなパネルのタイトルカラー。
+panelTitle.inactiveForeground ：非アクティブパネルのタイトルカラー。
+
+ステータスバー色
+statusBar.background ：標準ステータスバーの背景色です。
+statusBar.foreground ：ステータスバーの前景色。
+statusBar.debuggingBackground ：プログラムがデバッグされているときのステータスバーの背景色。
+statusBar.debuggingForeground ：プログラムがデバッグされているときのステータスバーの前景色。
+statusBar.noFolderForeground ：フォルダが開いていないときのステータスバーの前景色。
+statusBar.noFolderBackground ：フォルダが開いていないときのステータスバーの背景色。
+statusBarItem.activeBackground ：ステータスバーの項目の背景色をクリックします。
+statusBarItem.hoverBackground ：ホバー時のステータスバー項目の背景色。
+statusBarItem.prominentBackground ：ステータスバー顕著な項目の背景色。 著名なアイテムは、重要度を示すために他のステータスバーの項目から際立っています。
+statusBarItem.prominentHoverBackground ：ステータスバーは、ホバリング時の顕著な項目の背景色です。 著名なアイテムは、重要度を示すために他のステータスバーの項目から際立っています。
+statusBar.border ：ステータスバーとエディタを区切るステータスバーの境界線の色です。
+
+タイトルバー色(macOs)
+titleBar.activeBackground ：ウィンドウがアクティブなときのタイトルバーの背景。 この色は現在macOSでのみサポートされていることに注意してください。
+titleBar.activeForeground ：タイトルウィンドウがアクティブなときにタイトルバーフォアグラウンド。 この色は現在macOSでのみサポートされていることに注意してください。
+titleBar.inactiveBackground ：ウィンドウが非アクティブのときのタイトルバーの背景。 この色は現在macOSでのみサポートされていることに注意してください。
+titleBar.inactiveForeground ：タイトルウィンドウが非アクティブなときのタイトルバーフォアグラウンド。 この色は現在macOSでのみサポートされていることに注意してください。
+
+通知ダイアログ色
+notification.background ：通知の背景色です。
+notification.foreground ：通知フォアグラウンドカラー。
+notification.buttonBackground ：通知ボタンの背景色です。
+notification.buttonHoverBackground ：通知ボタンのホバーの背景色。
+notification.buttonForeground ：通知ボタンの前景色。
+notification.infoBackground ：通知情報バッジの背景色。
+notification.infoForeground ：通知情報バッジの前景色。
+notification.warningBackground ：バッジの背景色を警告するnotification.warningBackground 。
+notification.warningForeground ：警告バッジの前景色をnotification.warningForeground 。
+notification.errorBackground ：通知のエラーバッジの背景色。
+notification.errorForeground ：通知のエラーバッジの前景色。
+
+拡張機能色
+extensionButton.prominentForeground ：拡張機能ビューのフォアグラウンドカラー（たとえば、 インストールボタン）。
+extensionButton.prominentBackground ：拡張ビューのボタンの背景色です。
+extensionButton.prominentHoverBackground ：拡大表示ボタンの背景のホバーカラーです。
+
+クイックピッカー色
+pickerGroup.border ：枠をグループ化するためのクイックピッカー（クイックオープン）カラー。
+pickerGroup.foreground ：ラベルをグループ化するためのクイックピッカー（クイックオープン）カラー。
+
+統合ターミナル色
+terminal.background ：統合端末のビューポートの背景。
+terminal.foreground ：統合端末のデフォルトの前景色。
+terminal.ansiBlack ： terminal.ansiBlack 「黒」ANSIカラー。
+terminal.ansiBlue ： terminal.ansiBlue 'Blue' ANSIカラー。
+terminal.ansiBrightBlack ： terminal.ansiBrightBlack 「BrightBlack」ANSIカラー。
+terminal.ansiBrightBlue ： terminal.ansiBrightBlue 「BrightBlue」ANSIカラー。
+terminal.ansiBrightCyan ： terminal.ansiBrightCyan 「BrightCyan」ANSIカラー。
+terminal.ansiBrightGreen ： terminal.ansiBrightGreen 「BrightGreen」ANSIカラー。
+terminal.ansiBrightMagenta ： 'BrightMagenta' terminal.ansiBrightMagentaのANSIカラー。
+terminal.ansiBrightRed ： terminal.ansiBrightRed 「BrightRed」ANSIカラー。
+terminal.ansiBrightWhite ： 'BrightWhite' terminal.ansiBrightWhiteのANSIカラー。
+terminal.ansiBrightYellow ： terminal.ansiBrightYellow 「BrightYellow」ANSIカラー。
+terminal.ansiCyan ： terminal.ansiCyan 「シアン」ANSIカラー。
+terminal.ansiGreen ： terminal.ansiGreen 「緑色」のANSIカラー。
+terminal.ansiMagenta ： terminal.ansiMagenta 'Magenta' ANSIカラー。
+terminal.ansiRed ： terminal.ansiRedのANSI色が赤です。
+terminal.ansiWhite ： terminal.ansiWhite 'White' ANSIカラー。
+terminal.ansiYellow ： terminal.ansiYellow 「黄色」のANSIカラー。
+
+デバッグ色
+debugToolBar.background ：ツールバーの背景色をデバッグします。
+
+ウェルカムページ色
+welcomePage.buttonBackground ：ウェルカムページのボタンの背景色。
+welcomePage.buttonHoverBackground ：ウェルカムページのボタンの背景色を表示します。
+walkThrough.embeddedEditorBackground ：Interactive Playground上の埋め込みエディタの背景色。
