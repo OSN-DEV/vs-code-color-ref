@@ -1,3 +1,5 @@
+// https://code.visualstudio.com/api/references/theme-color#editor-colors
+
 ントラスト系の色
 contrastActiveBorder ：アクティブな要素の周囲に余分な境界線を設定して、コントラストを高めるためにアクティブな要素と他の要素を区切ります。
 contrastBorder ： contrastBorderを高めるために、要素の周りに余分な境界線を付けて他の境界線と区切ります。

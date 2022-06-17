@@ -1,7 +1,7 @@
 abcdedf
 
 {
-	  "editor.snippetSuggestions": "top",
+		"editor.snippetSuggestions": "top",
     "editor.tabCompletion": "onlySnippets",
     "update.showReleaseNotes": false,
     "workbench.startupEditor": "newUntitledFile",

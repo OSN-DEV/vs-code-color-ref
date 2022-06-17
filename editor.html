@@ -37,17 +37,17 @@
   <article>
     <section>
       <h2>editor.findMatchBackground</h2>
-      <p></p>
+      <p>Color of the current search match.</p>
       <figure>
         <img class="" alt="editor.findMatchBackground" src="./img/editor/editor.findMatchBackground.png" />
       </figure>
     </section>
 
     <section>
-      <h2>editor.editor.findMatchHighlightBackground</h2>
-      <p></p>
+      <h2>editor.findMatchHighlightBackground</h2>
+      <p>Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.</p>
       <figure>
-        <img class="" alt="editor.background" src="./img/editor/editor.findMatchHighlightBackground.png" />
+        <img class="" alt="editor.findMatchHighlightBackground" src="./img/editor/editor.findMatchHighlightBackground.png" />
       </figure>
     </section>
   </article>
@@ -56,7 +56,7 @@
   <article>
     <section>
       <h2>editor.selectionBackground</h2>
-      <p>editor.findMatchBackgroundは検索結果のハイライトであるのに対して、editor.selectionBackgroundはエディタで選択した箇所</p>
+      <p>Color of the editor selection.</p>
       <figure>
         <img class="" alt="editor.selectionBackground" src="./img/editor/editor.selectionBackground.png" />
       </figure>
@@ -64,7 +64,7 @@
 
     <section>
       <h2>editor.selectionHighlightBackground</h2>
-      <p>カレント行の背景色としても使用されるらしい</p>
+      <p>Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.</p>
       <figure>
         <img class="" alt="editor.selectionHighlightBackground" src="./img/editor/editor.selectionHighlightBackground.png" />
       </figure>
@@ -72,7 +72,7 @@
 
     <section>
       <h2>editor.inactiveSelectionBackground</h2>
-      <p>エディタが非アクティブの場合</p>
+      <p>Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.</p>
       <figure>
         <img class="" alt="editor.inactiveSelectionBackground" src="./img/editor/editor.inactiveSelectionBackground.png" />
       </figure>
@@ -83,7 +83,7 @@
   <article>
     <section>
       <h2>editor.lineHighlightBackground</h2>
-      <p>カーソル行の背景</p>
+      <p>Background color for the highlight of line at the cursor position.</p>
       <figure>
         <img class="" alt="editor.lineHighlightBackground" src="./img/editor/editor.lineHighlightBackground.png" />
       </figure>
@@ -94,7 +94,7 @@
   <article>
     <section>
       <h2>editor.rangeHighlightBackground</h2>
-      <p>検索結果の対象となっている行</p>
+      <p>Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.</p>
       <figure>
         <img class="" alt="editor.rangeHighlightBackground" src="./img/editor/editor.rangeHighlightBackground.png" />
       </figure>
@@ -102,7 +102,7 @@
 
     <section>
       <h2>editor.wordHighlightBackground</h2>
-      <p対になっているHTMLタグ</p>
+      <p>Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide underlying decorations.</p>
       <figure>
         <img class="" alt="editor.wordHighlightBackground" src="./img/editor/editor.wordHighlightBackground.png" />
       </figure>
@@ -110,7 +110,7 @@
 
     <section>
       <h2>editor.wordHighlightStrongBackground</h2>
-      <p>変数のハイライト？</p>
+      <p>Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.</p>
       <figure>
         <img class="" alt="editor.wordHighlightStrongBackground" src="./img/editor/editor.wordHighlightStrongBackground.png" />
       </figure>
@@ -121,7 +121,7 @@
   <article>
     <section>
       <h2>editorLineNumber.activeForeground</h2>
-      <p></p>
+      <p>Color of the active editor line number.</p>
       <figure>
         <img class="" alt="editorLineNumber.activeForeground" src="./img/editor/editorLineNumber.activeForeground.png" />
       </figure>
@@ -129,13 +129,22 @@
 
     <section>
       <h2>editorLineNumber.foreground</h2>
-      <p></p>
+      <p>Color of editor line numbers.</p>
       <figure>
         <img class="" alt="editorLineNumber.foreground" src="./img/editor/editorLineNumber.foreground.png" />
       </figure>
     </section>
   </article>
 
+    <section>
+      <h2>editorWhitespace.foreground</h2>
+      <p>Color of whitespace characters in the editor.
+To see the editor indent guides, set "editor.guides.indentation": true and "editor.guides.highlightActiveIndentation": true.</p>
+      <figure>
+        <img class="" alt="editorWhitespace.foreground" src="./img/editor/editorWhitespace.foreground.png" />
+      </figure>
+    </section>
+  </article>
 
 </body>
 </html>
